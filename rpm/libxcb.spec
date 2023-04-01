@@ -29,12 +29,6 @@ Summary:    XCB Damage Extension
 %description damage
 %{summary}.
 
-%package dbe
-Summary:    XCB Double Buffer Extension
-
-%description dbe
-%{summary}.
-
 %package dpms
 Summary:    XCB DPMS Extension
 
@@ -164,6 +158,29 @@ Summary:    XCB XvMC Extension
 %package devel
 Summary:    Development files for %{name}
 Requires:   %{name} = %{version}-%{release}
+Requires:   %{name}-composite = %{version}-%{release}
+Requires:   %{name}-damage = %{version}-%{release}
+Requires:   %{name}-dpms = %{version}-%{release}
+Requires:   %{name}-dri2 = %{version}-%{release}
+Requires:   %{name}-dri3 = %{version}-%{release}
+Requires:   %{name}-glx = %{version}-%{release}
+Requires:   %{name}-present = %{version}-%{release}
+Requires:   %{name}-randr = %{version}-%{release}
+Requires:   %{name}-record = %{version}-%{release}
+Requires:   %{name}-render = %{version}-%{release}
+Requires:   %{name}-res = %{version}-%{release}
+Requires:   %{name}-screensaver = %{version}-%{release}
+Requires:   %{name}-shape = %{version}-%{release}
+Requires:   %{name}-shm = %{version}-%{release}
+Requires:   %{name}-sync = %{version}-%{release}
+Requires:   %{name}-xf86dri = %{version}-%{release}
+Requires:   %{name}-xfixes = %{version}-%{release}
+Requires:   %{name}-xinerama = %{version}-%{release}
+Requires:   %{name}-xinput = %{version}-%{release}
+Requires:   %{name}-xkb = %{version}-%{release}
+Requires:   %{name}-xtest = %{version}-%{release}
+Requires:   %{name}-xv = %{version}-%{release}
+Requires:   %{name}-xvmc = %{version}-%{release}
 
 %description devel
 The %{name}-devel package contains libraries and header files for developing
