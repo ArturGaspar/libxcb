@@ -1,7 +1,7 @@
 Name:       libxcb
 Version:    1.15
 Release:    1%{?dist}
-Summary:    C interface to the X Window System protocol, which replaces the traditional Xlib interface.
+Summary:    C interface to the X Window System protocol, which replaces the traditional Xlib interface
 License:    MIT
 URL:        https://gitlab.freedesktop.org/xorg/lib/%{name}
 Source0:    https://gitlab.freedesktop.org/xorg/lib/%{name}/-/archive/%{name}-%{version}/%{name}-%{name}-%{version}.tar.bz2
